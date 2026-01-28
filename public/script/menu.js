@@ -194,7 +194,7 @@ function initMenuSystem() {
             const emptyRow = document.createElement('tr');
             emptyRow.innerHTML = `
                 <td colspan="4" style="text-align: center; padding: 40px; color: #666;">
-                    ${menuItems.length === 0 ? 'No menu items yet. Click "Add New Item" to get started!' : 'No items match the selected filter.'}
+                    ${menuItems.length === 0 ? '' : 'No items match the selected filter.'}
                 </td>
             `;
             tableBody.appendChild(emptyRow);

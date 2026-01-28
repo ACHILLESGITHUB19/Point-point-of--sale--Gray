@@ -1644,7 +1644,6 @@ function filterCategory(category) {
   });
 }
 
-// Test function to check if API is working
 async function testOrderAPI() {
   const testOrder = {
     items: [{

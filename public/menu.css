@@ -149,12 +149,13 @@ body {
 }
 
 .sidebar-footer {
-    margin-top: auto;
-    padding: 8px;
-    border: 1px solid #000000;
+    margin-top: 110px;
+    padding-top: 8px;
+    border: #000000 1px solid;
     text-align: center;
     font-size: 10px;
-    color: #000000;
+    color: #4e8a6a solid;
+    padding: 30px;
     background-color: white;
 }
 
